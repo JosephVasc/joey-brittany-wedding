@@ -3,6 +3,8 @@ import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import photo1 from "~/images/photo1.jpg";
 import photo2 from "~/images/photo2.jpg";
+import photo3 from "~/images/photo3.jpg";
+import photo4 from "~/images/photo4.jpg";
 
 const photos = [
   {
@@ -16,12 +18,12 @@ const photos = [
     height: 5,
   },
   {
-    src: photo2,
+    src: photo3,
     width: 5,
     height: 5,
   },
   {
-    src: photo2,
+    src: photo4,
     width: 5,
     height: 5,
   },

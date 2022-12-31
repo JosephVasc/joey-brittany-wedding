@@ -1,10 +1,13 @@
 {
+  "homepage": "https://josephvasc.github.io/jvblwedding2023",
   "private": true,
   "name": "remix-app-template",
   "description": "",
   "license": "",
   "scripts": {
     "build": "npm run build:css && remix build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d app",
     "build:css": "tailwindcss -m -i ./styles/app.css -o app/styles/app.css",
     "dev": "concurrently \"npm run dev:css\" \"npm run dev:dotenv\"",
     "dev:css": "tailwindcss -w -i ./styles/app.css -o app/styles/app.css",
@@ -32,6 +35,7 @@
     "@types/react-images": "^1.1.0",
     "autoprefixer": "^10.4.2",
     "concurrently": "^7.0.0",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.18",
     "typescript": "^4.1.2"
