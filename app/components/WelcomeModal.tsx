@@ -31,7 +31,7 @@ export default function WelcomeModal({ isOpen, onClose }: WelcomeModalProps) {
             {!recipient ? null : (
               <Fragment>
                 <div className="mb-5">
-                  <TextWithLine>Untuk</TextWithLine>
+                  <TextWithLine>for</TextWithLine>
                 </div>
                 <div
                   className={

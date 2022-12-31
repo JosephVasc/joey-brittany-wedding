@@ -44,7 +44,6 @@ const Message = memo(() => {
 
   useEffect(() => {
     if (fetcher.data?.ok && fetcher.state === "loading") {
-      console.log("resetting form")
       formRef.current?.reset();
       onChangePage(0);
     }

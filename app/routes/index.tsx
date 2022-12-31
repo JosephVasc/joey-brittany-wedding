@@ -62,11 +62,12 @@ export default function Index() {
         </div>
       </div>
       
+
       <SectionWrapper className="mb-36 pt-24">
         <Countdown />
       </SectionWrapper>
 
-      <SectionWrapper className="mb-36">
+      <SectionWrapper className="mb-36 bg-[#EFEFEF]">
         <Agendas />
       </SectionWrapper>
 
