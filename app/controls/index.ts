@@ -12,7 +12,7 @@ export interface LoaderDataType {
 }
 
 export const indexLoader: LoaderFunction = async ({ request }) => {
-  const url = new URL(request.url);
+  const url = new URL(request.url);0
   const recipient = url.searchParams.get("to") || "";
 
   const [recipientRemarks, messages] = await Promise.all([

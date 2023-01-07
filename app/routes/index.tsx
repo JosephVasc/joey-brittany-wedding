@@ -43,7 +43,7 @@ export default function Index() {
       <WelcomeModal isOpen={openWelcome} onClose={onCloseWelcomeModal} />
 
       <div
-        className="flex justify-center items-center h-screen md:h-[750px] bg-no-repeat bg-center bg-cover"
+        className="flex justify-center items-center h-screen md:h-[1440px] bg-no-repeat bg-center bg-cover"
         style={{ backgroundImage: `url(${isMobile ? heroBgMobile : heroBg})` }}
       >
         <div className="mb-1">

@@ -5,42 +5,52 @@ import photo1 from "~/images/photo1.jpg";
 import photo2 from "~/images/photo2.jpg";
 import photo3 from "~/images/photo3.jpg";
 import photo4 from "~/images/photo4.jpg";
+import photo5 from "~/images/photo5.jpg";
+import photo6 from "~/images/photo6.jpg";
+import photo7 from "~/images/photo7.jpg";
+import photo8 from "~/images/photo8.jpg";
+import photo9 from "~/images/photo9.jpg";
 
 const photos = [
   {
     src: photo1,
-    width: 2,
-    height: 2,
+    width: 1,
+    height: 1,
   },
   {
     src: photo2,
-    width: 5,
-    height: 5,
+    width: 1.2,
+    height: 1,
   },
   {
     src: photo3,
-    width: 5,
-    height: 5,
+    width: 1,
+    height: 1,
   },
   {
     src: photo4,
-    width: 5,
-    height: 5,
+    width: 1,
+    height: 1,
   },
   {
-    src: photo2,
-    width: 5,
-    height: 5,
+    src: photo5,
+    width: 2,
+    height: 1,
   },
   {
-    src: photo2,
-    width: 5,
-    height: 5,
+    src: photo6,
+    width: 1.3,
+    height: 1,
   },
   {
-    src: photo2,
-    width: 5,
-    height: 5,
+    src: photo7,
+    width: 1.3,
+    height: 1,
+  },
+  {
+    src: photo9,
+    width: 1.3,
+    height: 1,
   },
 ];
 
